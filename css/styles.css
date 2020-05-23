@@ -1,0 +1,140 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1{
+  font-size: 5.625rem;
+  margin: 3.125rem auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 0.625rem;
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 6.25rem;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 21.875rem;
+  top: 3.125rem;
+}
+
+.bottom-cloud{
+  position: absolute;
+  top: 28.125rem;
+  left: 21.875rem;
+}
+
+a{
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 6.25rem auto 6.25rem auto;
+  text-align: left;
+}
+
+.web-developer{
+  width: 25%;
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.gamer{
+  width: 25%;
+  float: right;
+  margin-left: 1.875rem;
+}
+
+hr{
+  width: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  height: 0;
+  border-color: #cceabb;
+  border-width: 0.625rem;
+  margin: 5rem auto;
+}
+
+.middle-container{
+  margin-top: 5rem;
+  margin-bottom: 6.25rem;
+}
+
+.bottom-container{
+  padding-top: 1.875rem;
+  padding-bottom: 0.625rem;
+  background-color: #66BFBF;
+}
+
+.liscence{
+  color: #EAF6F6;
+  padding: 1.25rem 0;
+  font-size: 0.75rem;
+}
+
+.footer-link{
+  margin-bottom: 6.25rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+p{
+  line-height: 2;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 2.5rem auto 3.75rem;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+	border-radius:0.5rem;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+	font-size:1.0625rem;
+	padding:0.6875rem 0.8125rem;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+	background-color:#11999e;
+}
+.myButton:active {
+	position:relative;
+	top:0.0625rem;
+}
